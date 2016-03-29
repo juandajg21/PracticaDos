@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PracticaDos.iml" filepath="$PROJECT_DIR$/PracticaDos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/puntocuatro/puntocuatro.iml" filepath="$PROJECT_DIR$/puntocuatro/puntocuatro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/puntodos/puntodos.iml" filepath="$PROJECT_DIR$/puntodos/puntodos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/puntotres/puntotres.iml" filepath="$PROJECT_DIR$/puntotres/puntotres.iml" />
+      <module fileurl="file://$PROJECT_DIR$/puntouno/puntouno.iml" filepath="$PROJECT_DIR$/puntouno/puntouno.iml" />
+    </modules>
+  </component>
+</project>

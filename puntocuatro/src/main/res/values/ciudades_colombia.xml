@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ciudades">
+            <item>Bogotá</item>
+            <item>Medellín</item>
+            <item>Cali</item>
+            <item>Barranquilla</item>
+            <item>Pereira</item>
+            <item>Cartagena</item>
+            <item>San Andrés y Providencia</item>
+            <item>Bucaramanga</item>
+    </string-array>
+</resources>

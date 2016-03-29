@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jimenez.jdavid.puntotres.Punto3">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkblue">
+        <!--android:layout_weight="0.1"-->
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Área de Figuras Geométricas"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:textColor="@color/white">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/paleturquoise">
+        <!--android:layout_weight="0.05" -->
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccione una opción:"
+            android:textColor="@color/black">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/aliceblue">
+        <!--android:layout_weight="0.025"-->
+
+        <RadioGroup
+            android:id="@+id/radioOpciones"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/cuadro"
+                android:text="Cuadro"
+                android:layout_width="wrap_content"
+                android:onClick="opCuadro"
+                android:layout_height="wrap_content"/>
+            <!--android:layout_weight="0.25"-->
+
+            <RadioButton
+                android:id="@+id/triangulo"
+                android:text="Triángulo"
+                android:layout_width="wrap_content"
+                android:onClick="opTriangulo"
+                android:layout_height="wrap_content"/>
+
+            <!--android:layout_weight="0.25"-->
+            <RadioButton
+                android:id="@+id/rectangulo"
+                android:text="Rectángulo"
+                android:layout_width="wrap_content"
+                android:onClick="opRectangulo"
+                android:layout_height="wrap_content"/>
+            <!--android:layout_weight="0.25"-->
+            <RadioButton
+                android:id="@+id/circulo"
+                android:text="Círculo"
+                android:onClick="opCirculo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!--android:layout_weight="0.25"-->
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:visibility="gone"
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/aliceblue"
+        android:orientation="horizontal">
+        <!--android:layout_weight="0.015"-->
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text1"
+            android:textColor="@color/black">
+        </TextView>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/num1"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:visibility="gone"
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/aliceblue">
+        <!--android:layout_weight="0.015"-->
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text2"
+            android:textColor="@color/black">
+        </TextView>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/num2"
+            android:inputType="number"
+            android:ems="10"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/honeydew">
+        <!--android:layout_weight="0.005"-->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calcular"
+            android:onClick="calcularOp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/honeydew">
+        <!--android:layout_weight="0.10"-->
+
+        <TextView
+            android:id="@+id/respuesta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:textSize="36sp"
+            android:textColor="@color/black">
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>
